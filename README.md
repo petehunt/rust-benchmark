@@ -58,12 +58,10 @@ target/release/sort-benchmark
 ## Results I got on my machine
 
 ```
-[petehunt@petehunt-mbp sort-benchmark{master}]$ node -v
-v6.9.2
 [petehunt@petehunt-mbp sort-benchmark{master}]$ node sort-benchmark.js
-Sorted 500000 ints in 294 ms
+Sorted 500000 ints in 142 ms
 [petehunt@petehunt-mbp sort-benchmark{master}]$ node target/asmjs-unknown-emscripten/release/sort-benchmark.js
-Sorted 500000 ints in 144 ms
-[petehunt@petehunt-mbp sort-benchmark{master}]$ ./target/release/sort-benchmark
-Sorted 500000 ints in 39 ms
+Sorted 500000 ints in 134 ms
+[petehunt@petehunt-mbp sort-benchmark{master}]$ target/release/sort-benchmark
+Sorted 500000 ints in 40 ms
 ```
