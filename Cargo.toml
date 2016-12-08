@@ -1,0 +1,8 @@
+[package]
+name = "sort-benchmark"
+version = "0.1.0"
+authors = ["Pete Hunt <pete@smyte.com>"]
+
+[dependencies]
+time = "0.1"
+rand = "0.3"
