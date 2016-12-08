@@ -19,7 +19,7 @@ function main() {
   shuffle(nums);
 
   var start = Date.now();
-  nums.sort();
+  nums.sort(function(a, b) { return a - b });
   var end = Date.now();
   console.log('Sorted', N, 'ints in', end - start, 'ms');
 }
